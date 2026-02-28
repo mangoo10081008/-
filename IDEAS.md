@@ -53,6 +53,10 @@ cat << 'EOF' > IDEAS.md
 *By Juho, Future Global Founder*
 EOF
 
+### 🤖 AI Bot Builder Service
+- **개요**: 코딩을 몰라도 누구나 자신만의 AI 디스코드 봇을 만들고 운영할 수 있게 돕는 대행 서비스.
+- **가치**: 커뮤니티 관리 자동화 및 AI 비서의 디스코드 이식.
+
 # 깃허브에 올리기
 git add IDEAS.md
 git commit -m "docs: finalize business roadmap and AI agent strategy"
