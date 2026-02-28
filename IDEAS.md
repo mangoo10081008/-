@@ -49,15 +49,22 @@ cat << 'EOF' > IDEAS.md
 4. **Phase 4**: 해외 유학 및 글로벌 시장 진출 (영문판 런칭).
 
 ---
-*Last Updated: 2026-02-28*
-*By Juho, Future Global Founder*
-EOF
 
-### 🤖 AI Bot Builder Service
-- **개요**: 코딩을 몰라도 누구나 자신만의 AI 디스코드 봇을 만들고 운영할 수 있게 돕는 대행 서비스.
-- **가치**: 커뮤니티 관리 자동화 및 AI 비서의 디스코드 이식.
+### 🤖 AI Discord Bot Builder (No-Code SaaS)
+- **개요**: 복잡한 코딩이나 서버 호스팅 지식 없이도, 자연어 명령만으로 자신만의 '맞춤형 AI 디스코드 봇'을 생성하고 운영할 수 있는 자동화 대행 서비스.
+  
+- **핵심 기능 (Core Features)**:
+  1. **Prompt-to-Bot**: "우리 서버의 규칙을 안내하고, 욕설을 필터링하며, 주식 정보를 알려주는 봇을 만들어줘"라고 입력하면 AI가 즉시 봇 로직을 생성.
+  2. **Instant Hosting**: 사용자가 따로 서버를 구축할 필요 없이, 웹에서 '활성화' 버튼 클릭 시 즉시 24시간 가동되는 클라우드 호스팅 제공.
+  3. **AI Brain Link**: Gemini API를 연동하여 서버 멤버들과 자연스럽게 대화하고 질문에 답하는 '서버 전용 AI 비서' 기능.
+  4. **Plugin Marketplace**: 출석 체크, 레벨업 시스템, 가상화폐 시세 알림 등 인기 기능을 모듈 형태로 쉽게 추가.
 
-# 깃허브에 올리기
-git add IDEAS.md
-git commit -m "docs: finalize business roadmap and AI agent strategy"
-git push
+- **비즈니스 가치 (Value Proposition)**:
+  - **커뮤니티 관리 자동화**: 대규모 서버 운영진의 인건비 및 시간 절약.
+  - **AI 접근성 확대**: 코딩을 모르는 일반 커뮤니티 장들도 최신 AI 기술을 자신의 서버에 도입 가능.
+  - **수익화**: 봇 호스팅 비용(구독제) 및 특수 기능(API 호출량)에 따른 과금 체계 구축.
+
+- **수익 구조 (Revenue Structure)**:
+  - **Basic (무료)**: 기본 관리 기능 봇 1개 제공.
+  - **Pro (월 $4.99)**: AI 대화 기능 활성화 + 24/7 안정적 호스팅 + 커스텀 명령어 무제한.
+  - **Enterprise**: 대형 커뮤니티용 맞춤형 봇 제작 및 데이터 분석 리포트 제공.
