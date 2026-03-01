@@ -68,3 +68,18 @@ cat << 'EOF' > IDEAS.md
   - **Basic (무료)**: 기본 관리 기능 봇 1개 제공.
   - **Pro (월 $4.99)**: AI 대화 기능 활성화 + 24/7 안정적 호스팅 + 커스텀 명령어 무제한.
   - **Enterprise**: 대형 커뮤니티용 맞춤형 봇 제작 및 데이터 분석 리포트 제공.
+
+## 💡 Project: Neural Bridge (NPU Optimization App)
+
+### 1. 배경
+- 윈도우 12 AI 요구사항(NPU)과 기존 하드웨어(CPU/GPU) 간의 간극 해결.
+
+### 2. 핵심 아이디어
+- **Virtual NPU Layer**: 소프트웨어적으로 NPU 환경을 에뮬레이션.
+- **Dynamic Resource Allocation**: GPU와 CPU의 가용 자원을 실시간으로 계산하여 AI 연산에 할당.
+
+### 3. 차별점
+- 시중의 일반 최적화 앱과 달리, 'AI 연산'에만 특화된 리소스 배분 알고리즘 적용.
+
+### 4. 1차 목표 (MVP)
+- 파이썬으로 현재 내 PC의 CPU/GPU 여유 자원을 체크하고, 특정 연산을 어디로 보낼지 결정하는 대시보드 만들기.
